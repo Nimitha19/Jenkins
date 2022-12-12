@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-          <class name="Sample_Maven_ELF39.Sample_Maven_demoTest"/>
+      <class name="Sample_Maven_ELF39.Sample_Maven_demoTest"/>
       <class name="Sample_Maven_ELF39.Register_01cmdTest"/>
-     <class name="Sample_Maven_ELF39.Dms_searchTest"/>
+      <class name="Sample_Maven_ELF39.Dms_searchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-18T12:09:22 IST" name="Default suite" finished-at="2022-11-18T12:09:30 IST" duration-ms="8092">
+  <suite started-at="2022-12-12T17:36:53 IST" name="Suite" finished-at="2022-12-12T17:37:06 IST" duration-ms="13613">
     <groups>
     </groups>
-    <test started-at="2022-11-18T12:09:22 IST" name="Default test" finished-at="2022-11-18T12:09:30 IST" duration-ms="8092">
+    <test started-at="2022-12-12T17:36:53 IST" name="Test" finished-at="2022-12-12T17:37:06 IST" duration-ms="13613">
+      <class name="Sample_Maven_ELF39.Sample_Maven_demoTest">
+        <test-method signature="Demo()[pri:0, instance:Sample_Maven_ELF39.Sample_Maven_demoTest@17046283]" started-at="2022-12-12T17:36:53 IST" name="Demo" finished-at="2022-12-12T17:36:53 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Sample_Maven_ELF39.Sample_Maven_demoTest -->
       <class name="Sample_Maven_ELF39.Register_01cmdTest">
-        <test-method is-config="true" signature="demo()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@d4342c2]" started-at="2022-11-18T12:09:22 IST" name="demo" finished-at="2022-11-18T12:09:27 IST" duration-ms="5372" status="PASS">
+        <test-method is-config="true" signature="demo()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@5bd03f44]" started-at="2022-12-12T17:36:53 IST" name="demo" finished-at="2022-12-12T17:36:57 IST" duration-ms="4369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="TC01()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@d4342c2]" started-at="2022-11-18T12:09:27 IST" name="TC01" finished-at="2022-11-18T12:09:30 IST" duration-ms="2380" status="PASS">
+        <test-method signature="TC01()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@5bd03f44]" started-at="2022-12-12T17:36:57 IST" name="TC01" finished-at="2022-12-12T17:36:59 IST" duration-ms="1832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01 -->
-        <test-method is-config="true" signature="hi()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@d4342c2]" started-at="2022-11-18T12:09:30 IST" name="hi" finished-at="2022-11-18T12:09:30 IST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="hi()[pri:0, instance:Sample_Maven_ELF39.Register_01cmdTest@5bd03f44]" started-at="2022-12-12T17:36:59 IST" name="hi" finished-at="2022-12-12T17:36:59 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hi -->
       </class> <!-- Sample_Maven_ELF39.Register_01cmdTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Sample_Maven_ELF39.Dms_searchTest">
+        <test-method signature="TC01()[pri:0, instance:Sample_Maven_ELF39.Dms_searchTest@29626d54]" started-at="2022-12-12T17:36:59 IST" name="TC01" finished-at="2022-12-12T17:37:06 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- Sample_Maven_ELF39.Dms_searchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
